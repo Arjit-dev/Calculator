@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .maind{
+        height: 60vh;
+        border: 4px solid black;
+        width: 20vw;
+        border-radius: 20px;
+        background-color: rgb(66, 65, 65);
+        /* text-align: center; */
+        margin: auto;
+
+    }
+    #ans{
+        height: 5rem;
+        width: 18rem;
+        border: 3px solid black;
+        border-radius: 20px;
+        margin: 0.3rem;
+        background-color: rgb(169, 165, 165);
+        color: black;
+    }
+    .row1{
+        display: grid;
+        grid-template-columns:2fr 1fr 1fr;
+        height: 4rem;
+        margin: 0.3rem;
+        column-gap: 0.4rem;
+        border-radius: 10px;
+    }
+    #weep {
+
+        border-radius: 20px;
+    }
+    #weepo{
+        border-radius: 20px;
+        background-color: rgb(255, 123, 0);
+        font-size: 1rem;
+        color: white;
+        font-weight:bolder;
+    }
+    .row2 {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        height: 4rem;
+        margin: 0.3rem;
+        column-gap: 0.4rem;
+        border-radius: 10px;
+    }
+    input{
+        text-align: center;
+        display: inline-block;
+        background-color: rgb(54, 59, 59);
+        color: white;
+
+    }
+    .row3 {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        height: 4rem;
+        margin: 0.3rem;
+        column-gap: 0.4rem;
+        border-radius: 10px;
+    }
+    .row4 {
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        height: 4rem;
+        margin: 0.3rem;
+        column-gap: 0.4rem;
+        border-radius: 10px;
+    }
+    .row5 {
+        display: grid;
+        grid-template-columns:3fr 1fr;
+        height: 4rem;
+        margin: 0.3rem;
+        column-gap: 0.4rem;
+        border-radius: 10px;
+    }
+</style> 
+<body>
+    <div class="maind">
+        <div class="ans">
+            <input type="text" value="ans" id="ans">
+         </div>
+        <div class="row1">
+            <input type="button" value="C" placeholder="C" id="weep">
+            <input type="button" value="&larr;" placeholder="lefta" id="weep">
+            <input type="button" value="/" placeholder="div" id="weepo">
+            <!-- <input type="button" value="1" placeholder="1" id="weep"> -->
+        </div>
+        <div class="row2">
+            <input type="button" value="7" placeholder="7" id="weep">
+            <input type="button" value="8" placeholder="8" id="weep">
+            <input type="button" value="9" placeholder="9" id="weep">
+            <input type="button" value="x" placeholder="mul" id="weepo">
+
+        </div>
+        <div class="row3">
+            <input type="button" value="4" placeholder="4" id="weep">
+            <input type="button" value="5" placeholder="5" id="weep">
+            <input type="button" value="6" placeholder="6" id="weep">
+            <input type="button" value="-" placeholder="sub" id="weepo">
+
+        </div>
+        <div class="row4">
+            <input type="button" value="1" placeholder="1" id="weep">
+            <input type="button" value="2" placeholder="2" id="weep">
+            <input type="button" value="3" placeholder="3" id="weep">
+            <input type="button" value="+" placeholder="plus" id="weepo">
+
+        </div>
+        <div class="row5">
+            <input type="button" value="0" placeholder="0" id="weep">
+            <!-- <input type="button" value="1" placeholder="1" id="weep">
+            <input type="button" value="1" placeholder="1" id="weep"> -->
+            <input type="button" value="=" placeholder="eq" id="weepo">
+
+        </div>
+    
+</div>
+</body>
+</html>
